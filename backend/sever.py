@@ -8,7 +8,7 @@ CORS(app)  # 允许跨域请求
 
 # API配置
 DEEPSEEK_URL = "https://api.deepseek.com/chat/completions"
-API_KEY = "sk-98dc7b66edea45198093982d29b8ce3f"
+API_KEY = "sk-5f626fccc10f45e1850c6db98c5f5410"
 MODEL = "deepseek-chat"
 
 # 人物设定
@@ -118,4 +118,5 @@ def get_characters():
     return jsonify(CHARACTERS)
 
 if __name__ == '__main__':
+
     app.run(debug=True, port=5000)
